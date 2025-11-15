@@ -1,0 +1,5 @@
+dropout: 0.5
+embedding_dim: 768
+hidden_dim: 500
+lr: 5.0e-05
+num_labels: 3

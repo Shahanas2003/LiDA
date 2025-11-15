@@ -1,0 +1,6 @@
+Dataset,Augmentation,Accuracy,F1,MCC
+English,Linear,0.881,0.884,0.763
+English,AE,0.840,0.841,0.680
+English,All,0.881,0.884,0.763
+Chinese,All,0.877,0.881,0.755
+Indonesian,All,0.902,0.862,0.818

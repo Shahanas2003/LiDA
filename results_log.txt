@@ -1,0 +1,22 @@
+Run 1: linear, epochs=5, sample=1.0 → Test Acc=0.881, F1=0.884, MCC=0.763
+Run 1: linear → Acc 0.881, F1 0.884, MCC 0.763
+Run 2: ae → Acc 0.840, F1 0.841, MCC 0.680
+
+
+
+
+Final multilingual results (All augmentations):
+
+EN → Acc 0.8808  F1 0.8835  MCC 0.7626
+CN → Acc 0.8775  F1 0.8811  MCC 0.7553
+ID → Acc 0.9018  F1 0.8622  MCC 0.8178
+
+
+| Dataset    | Augmentation | Test Accuracy | Test F1 | MCC    |
+| ---------- | ------------ | ------------- | ------- | ------ |
+| English    | Linear       | 0.8808        | 0.8839  | 0.7629 |
+| English    | Autoencoder  | 0.840         | 0.841   | 0.680  |
+| English    | All (LiDA)   | 0.8808        | 0.8835  | 0.7626 |
+| Chinese    | All          | 0.8775        | 0.8812  | 0.7553 |
+| Indonesian | All          | 0.9018        | 0.8622  | 0.8178 |
+
