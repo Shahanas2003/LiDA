@@ -52,8 +52,6 @@ Example classification accuracy improvements (Bengali, 10% data):
 | Model         | Without LiDA | With LiDA |
 |---------------|--------------|-----------|
 | LSTM Baseline | 0.63         | 0.71      |
-Sample plot (see `/results/plots/`):
-![Bengali Sentiment Classification Accuracy With/Without LiDA Augmentation](results/plots/bengali_accuracy_vs_dataset_size.png)
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
